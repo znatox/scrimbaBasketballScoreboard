@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'CursedTimer';
+  src: url('/fonts/digital-7.ttf'); /* Correctly formatted path */
+}
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+    
+}
+button {
+    background: none;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8; 
+    border-radius: 10%;
+    font-family: 'CursedTimer';
+    color: #9AABD8;
+    
+}
+#home-score, #guest-score {
+    border-radius: 1px;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 155px;
+    margin: 20px;
+    font-family: 'CursedTimer', sans-serif;    
+}
+#team-id{
+    font-weight: bald;
+    font-size: 40px;
+    color: white;
+    font-family:  Verdana;
+    margin: 10px;
+}
